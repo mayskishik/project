@@ -1,0 +1,68 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+Table {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+Table td, Table th {
+    padding-left: 100px;
+    margin-bottom: 10px;
+    size: 50px;
+}
+Table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: lightpink;
+    background-color:#555;
+    text-align:center;
+}
+table td {
+    color: black;
+    padding-bottom: 10px;
+}
+tr {
+    background-color: #f2f2f2;
+}
+#SNMP {background-color: PINK;}
+#System {background-color: rgb(157,199,161);}
+#UDP {background-color: rgb(250,220,187);}
+#ARP {background-color: rgb(178,237,236);}
+#TCP {background-color: rgb(223,190,237);}
